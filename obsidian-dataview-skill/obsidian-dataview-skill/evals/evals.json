@@ -1,0 +1,36 @@
+{
+  "obsidian-dataview": {
+    "evals": [
+      {
+        "id": 1,
+        "prompt": "Show me all my books sorted by rating, with columns for author, genre, and year published",
+        "expected_output": "DQL TABLE query with FROM #books or similar, SORT rating DESC, columns for author, genre, year",
+        "files": []
+      },
+      {
+        "id": 2,
+        "prompt": "I want to see all incomplete tasks that have a due date, grouped by the file they came from",
+        "expected_output": "DQL TASK query with WHERE !completed and due, GROUP BY file.link",
+        "files": []
+      },
+      {
+        "id": 3,
+        "prompt": "Write me a dataviewjs script that creates a table of all projects showing their status and days until deadline",
+        "expected_output": "dataviewjs code block with dv.table() and dv.pages(), calculating days until deadline",
+        "files": []
+      },
+      {
+        "id": 4,
+        "prompt": "Write a dataviewjs script that shows all my books grouped by genre, with each genre showing a count of books and average rating",
+        "expected_output": "dataviewjs code block using .groupBy() on DataArray, calculating count and average",
+        "files": []
+      },
+      {
+        "id": 5,
+        "prompt": "Write a dataviewjs script for my weekly review note that shows all tasks completed this week, grouped by the file they came from",
+        "expected_output": "dataviewjs code block using task.done field, dv.taskList(), and .groupBy()",
+        "files": []
+      }
+    ]
+  }
+}

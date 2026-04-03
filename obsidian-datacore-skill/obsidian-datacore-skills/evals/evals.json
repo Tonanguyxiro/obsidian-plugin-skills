@@ -1,0 +1,104 @@
+{
+  "skill_name": "obsidian-datacore-scripting",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Create a Datacore view that shows all my pages tagged #book in a table with columns for the page link, rating (from frontmatter), genre, and the date I finished reading it. Add paging with 25 items per page.",
+      "expected_output": "A complete datacorejsx codeblock with dc.useQuery for #book and @page, a COLUMNS array with 4 columns (link, rating, genre, date-finished), dc.Table component with paging={25}, and a View function return.",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Uses dc.useQuery with '#book and @page' query",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Defines COLUMNS array with id, value for link, rating, genre, and date-finished",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Returns View function with dc.Table using rows={books} and columns={COLUMNS}",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Sets paging={25} on the Table component",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Uses row.value() for frontmatter field access (rating, genre, date-finished)",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "prompt": "Write a Datacore script that queries all tasks that are not completed, groups them by their parent page, and displays them as a hierarchical list where each parent page is a header and the tasks under it are shown as bullet points. Show only the first 3 levels of nesting.",
+      "expected_output": "A datacorejsx codeblock with dc.useQuery for @task and $completed = false, dc.useArray with groupBy to group by parent page, dc.List component with grouping headers and maxChildDepth={3}.",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Uses dc.useQuery for @task with $completed = false filter",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Uses dc.useArray with groupBy to group by parent page",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Returns dc.List component with appropriate renderer",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Sets maxChildDepth={3}",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "View function returns the list properly",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "I have pages tagged #project. Write a Datacore view that shows a table of all project pages, with columns for the page link, a status field (or 'No Status' if missing), and the $ctime formatted nicely. Also show query timing info. Make it so only projects with a status field are shown.",
+      "expected_output": "A datacorejsx codeblock with dc.useQuery filtering by #project and @page, exists(status) filter, COLUMNS array with link, status (with fallback to 'No Status'), and formatted ctime, dc.Table with paging, and proper field access via row.value().",
+      "files": [],
+      "assertions": [
+        {
+          "text": "Uses dc.useQuery with '#project and @page' query",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Filters to only pages with status using exists(status) in query",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Defines COLUMNS with link, status (fallback to 'No Status'), and formatted ctime",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Uses row.value() for field access with fallback for missing status",
+          "passed": false,
+          "evidence": ""
+        },
+        {
+          "text": "Returns dc.Table with paging enabled",
+          "passed": false,
+          "evidence": ""
+        }
+      ]
+    }
+  ]
+}

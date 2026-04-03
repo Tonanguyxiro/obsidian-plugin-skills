@@ -1,0 +1,12 @@
+[submodule "obsidian-datacore-skill/datacore"]
+	path = obsidian-datacore-skill/datacore
+	url = https://github.com/blacksmithgu/datacore.git
+[submodule "obsidian-dataview-skill/obsidian-dataview"]
+	path = obsidian-dataview-skill/obsidian-dataview
+	url = https://github.com/blacksmithgu/obsidian-dataview.git
+[submodule "obsidian-tasks-skill/obsidian-tasks"]
+	path = obsidian-tasks-skill/obsidian-tasks
+	url = https://github.com/obsidian-tasks-group/obsidian-tasks.git
+[submodule "obsidian-templater-skill/obsidian-templater"]
+	path = obsidian-templater-skill/obsidian-templater
+	url = https://github.com/SilentVoid13/Templater.git
