@@ -41,11 +41,11 @@ Use these as a template for what to look for in a new plugin (paths are inside e
 General rule: **`docs/` first → public-API file → functions module.** That's usually 3-5 files, not
 the whole repo.
 
-## 3. Write `plugins/<name>.md`
+## 3. Write `plugins/<name>/SKILL.md`
 
-Match the existing style (see [`plugins/dataview.md`](plugins/dataview.md)):
+Match the existing style (see [`plugins/dataview/SKILL.md`](plugins/dataview/SKILL.md)):
 
-- Start with `# <Plugin>` and a one-line pointer: `> Upstream source: ../references/<name>/`.
+- Start with `# <Plugin>` and a one-line pointer: `> Upstream source: ../../../references/<name>/`.
 - **No YAML frontmatter** — activation triggers belong in the router, not the per-plugin file.
 - Lead with tables and short runnable snippets. Example-first.
 - End with a **"common mistakes to avoid"** section — the non-obvious API gotchas you found while
@@ -59,5 +59,5 @@ with the new plugin's trigger keywords. Add a disambiguation note if it overlaps
 
 ## 5. (Optional) Add evals
 
-If you want coverage checks, add `plugins/<name>.evals.json` with prompt → expected-shape pairs,
-following [`plugins/dataview.evals.json`](plugins/dataview.evals.json).
+If you want coverage checks, add `plugins/<name>/evals.json` with prompt → expected-shape pairs,
+following [`plugins/dataview/evals.json`](plugins/dataview/evals.json).

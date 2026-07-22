@@ -1,6 +1,6 @@
 # Templater Skill
 
-> Upstream source: [`references/obsidian-templater/`](../../references/obsidian-templater/). Deep-dive docs in [`templater/`](templater/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
+> Upstream source: [`references/obsidian-templater/`](../../../references/obsidian-templater/). Deep-dive docs live alongside this file. Activation triggers live in [`../../SKILL.md`](../../SKILL.md).
 
 [Templater](https://github.com/SilentVoid13/Templater) is an Obsidian plugin that lets you insert **variables** and **function results** into notes, and execute JavaScript to manipulate them.
 
@@ -174,11 +174,11 @@ return "Note";
 
 For full documentation on syntax and commands, see the bundled references:
 
-- [`templater/syntax.md`](templater/syntax.md) — full command and function syntax guide
-- [`templater/commands/overview.md`](templater/commands/overview.md) — command types (`<%` vs `<%*`) and utilities
-- [`templater/commands/execution-command.md`](templater/commands/execution-command.md) — JS execution in templates
-- [`templater/commands/whitespace-control.md`](templater/commands/whitespace-control.md) — controlling whitespace
-- [`templater/commands/dynamic-command.md`](templater/commands/dynamic-command.md) — dynamic command syntax
-- [`templater/user-functions/overview.md`](templater/user-functions/overview.md) — user-defined functions (tp.user)
-- [`templater/user-functions/script-user-functions.md`](templater/user-functions/script-user-functions.md) — script-based user functions
-- [`templater/user-functions/system-user-functions.md`](templater/user-functions/system-user-functions.md) — system command user functions
+- [`syntax.md`](syntax.md) — full command and function syntax guide
+- [`commands/overview.md`](commands/overview.md) — command types (`<%` vs `<%*`) and utilities
+- [`commands/execution-command.md`](commands/execution-command.md) — JS execution in templates
+- [`commands/whitespace-control.md`](commands/whitespace-control.md) — controlling whitespace
+- [`commands/dynamic-command.md`](commands/dynamic-command.md) — dynamic command syntax
+- [`user-functions/overview.md`](user-functions/overview.md) — user-defined functions (tp.user)
+- [`user-functions/script-user-functions.md`](user-functions/script-user-functions.md) — script-based user functions
+- [`user-functions/system-user-functions.md`](user-functions/system-user-functions.md) — system command user functions

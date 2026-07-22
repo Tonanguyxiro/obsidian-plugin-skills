@@ -1,6 +1,6 @@
 # Obsidian Datacore Scripting
 
-> Upstream source: [`references/obsidian-datacore/`](../../references/obsidian-datacore/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
+> Upstream source: [`references/obsidian-datacore/`](../../../references/obsidian-datacore/). Activation triggers live in [`../../SKILL.md`](../../SKILL.md).
 
 Datacore is a reactive data engine for Obsidian.md that indexes vault metadata (pages, sections, blocks, tasks, files) and provides live-updating views via React-based codeblocks.
 

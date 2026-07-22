@@ -1,6 +1,6 @@
 # Obsidian Dataview Scripting
 
-> Upstream source: [`references/obsidian-dataview/`](../../references/obsidian-dataview/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
+> Upstream source: [`references/obsidian-dataview/`](../../../references/obsidian-dataview/). Activation triggers live in [`../../SKILL.md`](../../SKILL.md).
 
 Dataview treats your Obsidian vault as a queryable database. It indexes metadata from markdown files and lets you query it with a SQL-like language or JavaScript API.
 

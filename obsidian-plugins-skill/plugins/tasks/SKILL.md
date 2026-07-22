@@ -1,6 +1,6 @@
 # Obsidian Tasks Plugin API
 
-> Upstream source: [`references/obsidian-tasks/`](../../references/obsidian-tasks/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
+> Upstream source: [`references/obsidian-tasks/`](../../../references/obsidian-tasks/). Activation triggers live in [`../../SKILL.md`](../../SKILL.md).
 
 This skill provides knowledge about the Obsidian Tasks plugin (https://github.com/obsidian-tasks-group/obsidian-tasks) - its task data model, query language, scripting capabilities, and plugin API. All information is embedded directly in this file.
 

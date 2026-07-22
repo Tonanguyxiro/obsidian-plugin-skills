@@ -1,6 +1,6 @@
 # Obsidian List Callouts
 
-> Upstream source: [`references/obsidian-list-callouts/`](../../references/obsidian-list-callouts/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
+> Upstream source: [`references/obsidian-list-callouts/`](../../../references/obsidian-list-callouts/). Activation triggers live in [`../../SKILL.md`](../../SKILL.md).
 
 List Callouts turns individual **list items** into colored callouts. Type a configured marker
 character immediately after the list bullet (and a trailing space), and the item is styled with that

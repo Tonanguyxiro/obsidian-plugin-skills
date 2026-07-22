@@ -1,6 +1,6 @@
 # Obsidian Bases
 
-> Upstream source for the timeline view: [`references/timeline-for-bases/`](../../references/timeline-for-bases/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
+> Upstream source for the timeline view: [`references/timeline-for-bases/`](../../../references/timeline-for-bases/). Activation triggers live in [`../../SKILL.md`](../../SKILL.md).
 
 **Bases** is Obsidian's built-in database plugin. A `.base` file defines one or more **views** over a
 set of notes selected by **filters**, showing their frontmatter **properties** as columns. Bases

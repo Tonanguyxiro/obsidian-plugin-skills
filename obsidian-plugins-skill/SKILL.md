@@ -18,19 +18,19 @@ description: |
 # Obsidian Plugins Skill
 
 A single skill covering the scripting surface of four widely-used Obsidian plugins. Each plugin's
-full reference lives in its own file under [`plugins/`](plugins/) — **read only the file matching
-the user's request** to keep context small.
+full reference lives in its own folder under [`plugins/`](plugins/) — **read only the `SKILL.md`
+matching the user's request** to keep context small.
 
 ## Routing
 
 | If the request involves… | Read |
 |---|---|
-| Dataview — DQL queries, DataviewJS, the `dv` API, inline fields | [`plugins/dataview.md`](plugins/dataview.md) |
-| Datacore — `dc` API, datacorejs/datacorejsx, React views | [`plugins/datacore.md`](plugins/datacore.md) |
-| Tasks — query blocks, filters, task properties, custom statuses, Tasks API | [`plugins/tasks.md`](plugins/tasks.md) |
-| Templater — `tp.` functions, `<% %>` syntax, note templates | [`plugins/templater.md`](plugins/templater.md) |
-| List Callouts — colored list items via marker chars (`- & text`) | [`plugins/list-callouts.md`](plugins/list-callouts.md) |
-| Bases — `.base` files, views/filters/properties, the timeline/Gantt view | [`plugins/bases.md`](plugins/bases.md) |
+| Dataview — DQL queries, DataviewJS, the `dv` API, inline fields | [`plugins/dataview/SKILL.md`](plugins/dataview/SKILL.md) |
+| Datacore — `dc` API, datacorejs/datacorejsx, React views | [`plugins/datacore/SKILL.md`](plugins/datacore/SKILL.md) |
+| Tasks — query blocks, filters, task properties, custom statuses, Tasks API | [`plugins/tasks/SKILL.md`](plugins/tasks/SKILL.md) |
+| Templater — `tp.` functions, `<% %>` syntax, note templates | [`plugins/templater/SKILL.md`](plugins/templater/SKILL.md) |
+| List Callouts — colored list items via marker chars (`- & text`) | [`plugins/list-callouts/SKILL.md`](plugins/list-callouts/SKILL.md) |
+| Bases — `.base` files, views/filters/properties, the timeline/Gantt view | [`plugins/bases/SKILL.md`](plugins/bases/SKILL.md) |
 
 Disambiguation: Dataview and Datacore are both query engines and share vocabulary ("query my
 vault", "table", "list"). Pick Datacore only when the user names Datacore / `dc` / datacorejsx or
@@ -39,10 +39,10 @@ or templating note content (`tp.`), and Tasks is the only one for the `- [ ]` ta
 
 ## Per-plugin extras
 
-- Each `plugins/<name>.md` begins with a pointer to its upstream source under
+- Each `plugins/<name>/SKILL.md` begins with a pointer to its upstream source under
   [`../references/`](../references/) — read that source to verify any API name before documenting it.
-- Some plugins ship eval pairs alongside their doc: `plugins/dataview.evals.json`,
-  `plugins/datacore.evals.json` (prompt → expected query/template shape).
+- Some plugins ship eval pairs alongside their doc: `plugins/dataview/evals.json`,
+  `plugins/datacore/evals.json` (prompt → expected query/template shape).
 - Templater has deeper per-topic docs under [`plugins/templater/`](plugins/templater/).
 
 ## Adding a new plugin
