@@ -1,10 +1,6 @@
----
-name: obsidian-dataview
-description: |
-  Use when working with Obsidian Dataview — any time you see "dataview" in the user's message. Helps write DQL queries, DataviewJS scripts, inline expressions, and understands metadata annotation. Use this skill whenever the user wants to query, filter, list, or display data from their Obsidian vault. This includes requests like "show me all files with tag X", "create a table of my books", "list incomplete tasks", "find pages created this week", or anything involving dataview code blocks, inline fields, or the dv API.
----
-
 # Obsidian Dataview Scripting
+
+> Upstream source: [`references/obsidian-dataview/`](../../references/obsidian-dataview/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
 
 Dataview treats your Obsidian vault as a queryable database. It indexes metadata from markdown files and lets you query it with a SQL-like language or JavaScript API.
 

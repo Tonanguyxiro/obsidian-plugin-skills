@@ -1,16 +1,6 @@
----
-name: obsidian-templater
-description: |
-  Use when working with Obsidian Templater templates, Templater syntax, tp. functions, or any
-  request involving Templater template commands. This includes: writing new Templater templates,
-  fixing broken/invalid Templater syntax, explaining what a template does, using tp.date,
-  tp.file, tp.frontmatter, tp.web, tp.system, or any other Templater internal functions,
-  creating daily notes or file templates, or debugging template errors. Templater uses a
-  custom <% %> syntax — if the user mentions templates, tp., or Obsidian, this skill is
-  likely relevant. Apply it whenever the user wants help with Templater automation or templates.
----
-
 # Templater Skill
+
+> Upstream source: [`references/obsidian-templater/`](../../references/obsidian-templater/). Deep-dive docs in [`templater/`](templater/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
 
 [Templater](https://github.com/SilentVoid13/Templater) is an Obsidian plugin that lets you insert **variables** and **function results** into notes, and execute JavaScript to manipulate them.
 
@@ -184,11 +174,11 @@ return "Note";
 
 For full documentation on syntax and commands, see the bundled references:
 
-- `references/syntax.md` — full command and function syntax guide
-- `references/commands/overview.md` — command types (`<%` vs `<%*`) and utilities
-- `references/commands/execution-command.md` — JS execution in templates
-- `references/commands/whitespace-control.md` — controlling whitespace
-- `references/commands/dynamic-command.md` — dynamic command syntax
-- `references/user-functions/overview.md` — user-defined functions (tp.user)
-- `references/user-functions/script-user-functions.md` — script-based user functions
-- `references/user-functions/system-user-functions.md` — system command user functions
+- [`templater/syntax.md`](templater/syntax.md) — full command and function syntax guide
+- [`templater/commands/overview.md`](templater/commands/overview.md) — command types (`<%` vs `<%*`) and utilities
+- [`templater/commands/execution-command.md`](templater/commands/execution-command.md) — JS execution in templates
+- [`templater/commands/whitespace-control.md`](templater/commands/whitespace-control.md) — controlling whitespace
+- [`templater/commands/dynamic-command.md`](templater/commands/dynamic-command.md) — dynamic command syntax
+- [`templater/user-functions/overview.md`](templater/user-functions/overview.md) — user-defined functions (tp.user)
+- [`templater/user-functions/script-user-functions.md`](templater/user-functions/script-user-functions.md) — script-based user functions
+- [`templater/user-functions/system-user-functions.md`](templater/user-functions/system-user-functions.md) — system command user functions

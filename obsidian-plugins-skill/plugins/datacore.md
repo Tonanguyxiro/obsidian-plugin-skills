@@ -1,17 +1,6 @@
----
-name: obsidian-datacore-scripting
-description: |
-  Use this skill whenever the user wants to query, filter, or display data from their Obsidian vault using Datacore.
-  Triggers on: "datacore", "obsidian query", "obsidian view", "obsidian table", "obsidian list", "obsidian metadata",
-  "dv.pages equivalent", "query my obsidian vault", "@page", "#tag filter", "datacore codeblock",
-  "datacorejs", "datacorejsx", "obsidian fields", "obsidian links", or any request to display vault data in a table or list.
-
-  This skill teaches how to write Datacore scripts — React-based views using the `dc` global that query and render vault metadata.
-  It covers: queries (the Datacore query language), data fetching hooks, DataArray operations, table and list views,
-  field access, expressions, grouping, hierarchies, embeds, and code sharing via dc.require.
----
-
 # Obsidian Datacore Scripting
+
+> Upstream source: [`references/obsidian-datacore/`](../../references/obsidian-datacore/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
 
 Datacore is a reactive data engine for Obsidian.md that indexes vault metadata (pages, sections, blocks, tasks, files) and provides live-updating views via React-based codeblocks.
 

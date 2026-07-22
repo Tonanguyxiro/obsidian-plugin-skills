@@ -1,12 +1,18 @@
 [submodule "obsidian-dataview-skill/obsidian-dataview"]
-	path = obsidian-dataview-skill/obsidian-dataview
+	path = references/obsidian-dataview
 	url = https://github.com/blacksmithgu/obsidian-dataview.git
 [submodule "obsidian-tasks-skill/obsidian-tasks"]
-	path = obsidian-tasks-skill/obsidian-tasks
+	path = references/obsidian-tasks
 	url = https://github.com/obsidian-tasks-group/obsidian-tasks.git
 [submodule "obsidian-templater-skill/obsidian-templater"]
-	path = obsidian-templater-skill/obsidian-templater
+	path = references/obsidian-templater
 	url = https://github.com/SilentVoid13/Templater.git
 [submodule "obsidian-datacore-skill/obsidian-datacore"]
-	path = obsidian-datacore-skill/obsidian-datacore
+	path = references/obsidian-datacore
 	url = https://github.com/blacksmithgu/datacore.git
+[submodule "references/obsidian-list-callouts"]
+	path = references/obsidian-list-callouts
+	url = https://github.com/mgmeyers/obsidian-list-callouts
+[submodule "references/timeline-for-bases"]
+	path = references/timeline-for-bases
+	url = https://github.com/Tonanguyxiro/timeline-for-bases

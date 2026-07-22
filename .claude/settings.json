@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git mv *)",
+      "Bash(git submodule *)",
+      "Bash(git config *)",
+      "Bash(echo \"=== exit: $? ===\")",
+      "Bash(ls docs *)",
+      "Bash(find src *)",
+      "Bash(sed -n '1,80p' README.md)",
+      "Bash(perl -0pi -e 's/\\\\n+\\\\z/\\\\n/' obsidian-plugins-skill/plugins/bases.md)"
+    ]
+  }
+}

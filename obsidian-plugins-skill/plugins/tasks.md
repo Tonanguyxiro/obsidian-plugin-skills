@@ -1,11 +1,8 @@
----
-name: obsidian-tasks-api
-description: Use this skill whenever working with obsidian-tasks queries, filters, or the Tasks plugin API. This includes: writing Tasks query blocks (filter by function, sort by, group by), querying tasks by date/priority/status/folder/tags, using custom expressions for filters/grouping/sorting, accessing task properties (task.due, task.due.moment, task.file.path, etc.), understanding priority symbols and recurrence rules, using the Tasks API (createTaskLineModal, editTaskLineModal, executeToggleTaskDoneCommand) from QuickAdd or other plugins, setting up custom statuses, understanding scheduled vs due vs start dates, and any question about how the obsidian-tasks plugin works. Make sure to use this for anything related to the Tasks plugin's query language, custom scripting, or programmatic integration.
----
-
 # Obsidian Tasks Plugin API
 
-This skill provides knowledge about the Obsidian Tasks plugin (https://github.com/obsidian-tasks-group/obsidian-tasks) - its task data model, query language, scripting capabilities, and plugin API. All information is embedded directly in this skill; no external files are needed.
+> Upstream source: [`references/obsidian-tasks/`](../../references/obsidian-tasks/). Activation triggers live in [`../SKILL.md`](../SKILL.md).
+
+This skill provides knowledge about the Obsidian Tasks plugin (https://github.com/obsidian-tasks-group/obsidian-tasks) - its task data model, query language, scripting capabilities, and plugin API. All information is embedded directly in this file.
 
 ## Task Data Model
 
